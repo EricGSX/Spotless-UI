@@ -1,12 +1,12 @@
 ---
 hero:
-  title: library
-  description: A react library developed with dumi
+  title: Intellgeence
+  description: 【Intellgeence UI】基于React TS 打造的无需依赖第三方UI库，支持按需导入
   actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
+    - text: 立即上手
+      link: /guide/
+    - text: Github
+      link: [https://github.com/EricGSX/Intellgeence-UI]
 features:
   - title: Hello
     emoji: 💎
@@ -18,5 +18,3 @@ features:
     emoji: 🚀
     description: Put ! description here
 ---
-
-gd_smart_ui

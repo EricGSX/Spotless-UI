@@ -1,7 +1,7 @@
-# gd_smart_ui
+# intellgence_ui
 
-[![NPM version](https://img.shields.io/npm/v/gd_smart_ui.svg?style=flat)](https://npmjs.org/package/gd_smart_ui)
-[![NPM downloads](http://img.shields.io/npm/dm/gd_smart_ui.svg?style=flat)](https://npmjs.org/package/gd_smart_ui)
+[![NPM version](https://img.shields.io/npm/v/intellgence_ui.svg?style=flat)](https://npmjs.org/package/intellgence_ui)
+[![NPM downloads](http://img.shields.io/npm/dm/intellgence_ui.svg?style=flat)](https://npmjs.org/package/intellgence_ui)
 
 A react library developed with dumi
 
