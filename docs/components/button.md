@@ -8,3 +8,17 @@ group:
 ---
 
 # Button 按钮
+
+```tsx
+import { Button } from 'intellgence_ui';
+
+export default () => (
+  <div>
+    <Button type="primary" text="Primary"></Button> &nbsp; &nbsp;
+    <Button type="info" text="Info"></Button> &nbsp; &nbsp;
+    <Button type="success" text="Success"></Button> &nbsp; &nbsp;
+    <Button type="warning" text="Warning"></Button> &nbsp; &nbsp;
+    <Button type="danger" text="Danger"></Button>
+  </div>
+);
+```
