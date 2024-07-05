@@ -4,15 +4,14 @@ import './index.less';
 // 定义按钮的Props类型
 interface ButtonProps {
   text: string;
-  isSubmit?: boolean; // 指定按钮的类型
-  type: 'primary' | 'info' | 'warning' | 'success' | 'danger' | undefined; // 自定义按钮类型
+  isSubmit?: boolean;
+  type: 'primary' | 'info' | 'warning' | 'success' | 'danger' | 'button'; // 自定义按钮类型
   onClick: () => void;
 }
 
 // 定义按钮组件
 const Button: FC<ButtonProps> = (props) => {
   let buttonStyle = '';
-  let buttonAction = 'button';
 
   // 根据不同的类型设置不同的样式
   switch (props.type) {
@@ -35,14 +34,9 @@ const Button: FC<ButtonProps> = (props) => {
       buttonStyle = 'intel-btn-gray intel-btn';
   }
 
-  if (props.isSubmit) {
-    buttonAction = 'submit';
-  }
-
-  // eslint-disable-next-line
   return (
     <button
-      type={`${buttonAction}`}
+      type={props.isSubmit === true ? 'submit' : 'button'}
       className={`${buttonStyle}`}
       onClick={props.onClick}
     >
