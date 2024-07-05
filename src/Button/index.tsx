@@ -4,7 +4,7 @@ import './index.less';
 // 定义按钮的Props类型
 interface ButtonProps {
   text: string;
-  isSubmit?: boolean;
+  isSubmit: boolean;
   type: 'primary' | 'info' | 'warning' | 'success' | 'danger' | 'button'; // 自定义按钮类型
   onClick: () => void;
 }
