@@ -1,8 +1,8 @@
 {
   "name": "intellgence_ui",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "private": false,
-  "description": "A react library developed with dumi",
+  "description": "【Intellgeence UI】No need to rely on third-party UI libraries based on React TS, support on-demand import.",
   "keywords": [
     "React",
     "ts",
@@ -11,7 +11,7 @@
   "homepage": "https://www.xxx.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "https://github.com/EricGSX/Intellgeence-UI.git"
   },
   "license": "MIT",
   "author": "Eric.Guo",
