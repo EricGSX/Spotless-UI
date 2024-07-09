@@ -1,0 +1,38 @@
+.intel-badge {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 88%);
+  font-size: 14px;
+  line-height: 1;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+
+.intel-badge-sup {
+  position: absolute;
+  top: 0;
+  inset-inline-end: 0;
+  transform: translate(50%, -50%);
+  transform-origin: 100% 0%;
+  display: inline-flex;
+  justify-content: center;
+  z-index: auto;
+  min-width: 20px;
+  height: 20px;
+  color: #fff;
+  font-weight: normal;
+  font-size: var(--ant-badge-text-font-size);
+  line-height: 20px;
+  white-space: nowrap;
+  text-align: center;
+  background: #ff4d4f;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px #fff;
+  transition: background 0.2s;
+}
