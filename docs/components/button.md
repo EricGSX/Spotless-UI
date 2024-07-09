@@ -27,9 +27,9 @@ export default () => (
 
 ## API 文档
 
-| 参数     | 说明                                                 | 类型    | 默认值 |
-| -------- | ---------------------------------------------------- | ------- | ------ |
-| text     | 按钮文案                                             | string  | -      |
-| type     | 按钮类型 （primary，info，warning，success，danger） | string  | info   |
-| isSubmit | 是否进行提交                                         | boolean | false  |
-| onClick  | 对外暴露的点击事件                                   | Object  | -      |
+| 参数     | 说明                                                   | 类型      | 默认值  |
+| -------- | ------------------------------------------------------ | --------- | ------- |
+| text     | 按钮文案                                               | `string`  | -       |
+| type     | 按钮类型 `primary` `info` `warning` `success` `danger` | `string`  | `info`  |
+| isSubmit | 是否进行提交                                           | `boolean` | `false` |
+| onClick  | 对外暴露的点击事件                                     | `Object`  | -       |
