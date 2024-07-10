@@ -1,6 +1,6 @@
 {
   "name": "spotless-ui",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "private": false,
   "description": "【Spotless UI】No need to rely on third-party UI libraries based on React TS, support on-demand import.",
   "keywords": [
