@@ -9,7 +9,7 @@ group:
 
 # 什么是 Intel.
 
-Intel. 全称 Pristine UI 基于 React TS 打造的无需依赖第三方 UI 库，支持按需导入。
+Intel. 全称 Spotless UI 基于 React TS 打造的无需依赖第三方 UI 库，支持按需导入。
 
 ## 特性
 

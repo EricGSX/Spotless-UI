@@ -12,7 +12,7 @@ group:
 ## 基本用法
 
 ```tsx
-import { Ribbon } from 'pristine-ui';
+import { Ribbon } from 'spotless-ui';
 
 const divStyle: React.CSSProperties = {
   fontSize: '16px',

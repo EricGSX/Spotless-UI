@@ -1,8 +1,8 @@
 {
-  "name": "pristine-ui",
+  "name": "spotless-ui",
   "version": "0.2.0",
   "private": false,
-  "description": "【Pristine UI】No need to rely on third-party UI libraries based on React TS, support on-demand import.",
+  "description": "【Spotless UI】No need to rely on third-party UI libraries based on React TS, support on-demand import.",
   "keywords": [
     "React",
     "typescript",
@@ -23,11 +23,11 @@
   ],
   "homepage": "https://ericgsx.github.io/",
   "bugs": {
-    "url": "https://github.com/EricGSX/Pristine-UI/issues"
+    "url": "https://github.com/EricGSX/spotless-ui/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EricGSX/Pristine-UI.git"
+    "url": "https://github.com/EricGSX/spotless-ui.git"
   },
   "license": "MIT",
   "author": "Eric.Guo",

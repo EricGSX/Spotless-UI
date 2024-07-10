@@ -8,7 +8,7 @@ interface WatermarkProps {
 }
 
 const Watermark: FC<WatermarkProps> = (props) => {
-  // let waterContent = 'Pristine UI'
+  // let waterContent = 'Spotless UI'
 
   return (
     <div className="intel-watermark">

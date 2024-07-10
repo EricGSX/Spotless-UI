@@ -12,11 +12,11 @@ group:
 ## 基本用法
 
 ```tsx
-import { Watermark } from 'pristine-ui';
+import { Watermark } from 'spotless-ui';
 
 export default () => (
   <div>
-    <Watermark content="Pristine UI">
+    <Watermark content="Spotless UI">
       <div
         style={{
           height: '300px',

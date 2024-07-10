@@ -5,9 +5,9 @@ export default defineConfig({
   themeConfig: {
     name: 'Pristine',
     socialLinks: {
-      github: 'https://github.com/EricGSX/Pristine-UI',
+      github: 'https://github.com/EricGSX/spotless-ui',
     },
     footer: false,
-    editLink: 'https://github.com/EricGSX/Pristine-UI',
+    editLink: 'https://github.com/EricGSX/spotless-ui',
   },
 });
