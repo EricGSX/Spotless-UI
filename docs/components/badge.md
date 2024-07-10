@@ -12,7 +12,7 @@ group:
 ## 基本用法
 
 ```tsx
-import { Badge } from 'intellgence_ui';
+import { Badge } from 'pristine-ui';
 
 const divStyle: React.CSSProperties = {
   fontSize: '16px',

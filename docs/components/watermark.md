@@ -10,3 +10,21 @@ group:
 # Watermark 水印
 
 ## 基本用法
+
+```tsx
+import { Watermark } from 'pristine-ui';
+
+export default () => (
+  <div>
+    <Watermark content="Pristine UI">
+      <div
+        style={{
+          height: '300px',
+        }}
+      >
+        Content
+      </div>
+    </Watermark>
+  </div>
+);
+```

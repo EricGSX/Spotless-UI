@@ -12,7 +12,7 @@ group:
 ## 基本用法
 
 ```tsx
-import { Tag } from 'intellgence_ui';
+import { Tag } from 'pristine-ui';
 
 export default () => (
   <div>
@@ -35,7 +35,7 @@ export default () => (
 ## 自定义颜色
 
 ```tsx
-import { Tag } from 'intellgence_ui';
+import { Tag } from 'pristine-ui';
 
 export default () => (
   <div>

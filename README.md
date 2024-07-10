@@ -1,9 +1,9 @@
-# intellgence_ui
+# pristine-ui
 
-[![NPM version](https://img.shields.io/npm/v/intellgence_ui.svg?style=flat)](https://npmjs.org/package/intellgence_ui)
-[![NPM downloads](http://img.shields.io/npm/dm/intellgence_ui.svg?style=flat)](https://npmjs.org/package/intellgence_ui)
+[![NPM version](https://img.shields.io/npm/v/pristine-ui.svg?style=flat)](https://npmjs.org/package/pristine-ui)
+[![NPM downloads](http://img.shields.io/npm/dm/pristine-ui.svg?style=flat)](https://npmjs.org/package/pristine-ui)
 
-【Intellgeence UI】基于 React TS 打造的无需依赖第三方 UI 库，支持按需导入
+【Pristine UI】基于 React TS 打造的无需依赖第三方 UI 库，支持按需导入
 
 ## Usage
 

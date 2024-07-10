@@ -12,7 +12,7 @@ group:
 ## 基本用法
 
 ```tsx
-import { Button } from 'intellgence_ui';
+import { Button } from 'pristine-ui';
 
 export default () => (
   <div>

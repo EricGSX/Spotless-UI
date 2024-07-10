@@ -8,8 +8,8 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "intellgence_ui": ["src"],
-      "intellgence_ui/*": ["src/*", "*"]
+      "pristine-ui": ["src"],
+      "pristine-ui/*": ["src/*", "*"]
     }
   },
   "include": [".dumirc.ts", "src/**/*"]
