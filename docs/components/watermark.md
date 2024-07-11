@@ -31,7 +31,7 @@ export default () => (
 
 ## API 文档
 
-| 参数    | 说明     | 类型     | 默认值    |
-| ------- | -------- | -------- | --------- |
-| content | 水印内容 | `number` | 99        |
-| color   | 水印颜色 | `string` | `#ebebeb` |
+| 参数    | 说明     | 类型     | 默认值      |
+| ------- | -------- | -------- | ----------- |
+| content | 水印内容 | `string` | Spotless UI |
+| color   | 水印颜色 | `string` | `#ebebeb`   |
