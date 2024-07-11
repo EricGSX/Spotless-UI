@@ -9,9 +9,9 @@ interface RibbonProps {
 }
 
 const Ribbon: FC<RibbonProps> = (props) => {
-  let ribbonStyle = 'intel-ribbon-end';
+  let ribbonStyle = 'sptls-ribbon-end';
   if (props.placement === 'start') {
-    ribbonStyle = 'intel-ribbon-start';
+    ribbonStyle = 'sptls-ribbon-start';
   }
   ribbonStyle += ' item-ribbon-box';
 
@@ -24,13 +24,13 @@ const Ribbon: FC<RibbonProps> = (props) => {
   }
 
   return (
-    <div className="intel-ribbon">
+    <div className="sptls-ribbon">
       {/* Dom */}
       {props.children}
       {/* 丝带 */}
       <div style={divStyle} className={ribbonStyle}>
-        <span className="intel-ribbon-text">{props.text}</span>
-        <div className="intel-ribbon-corner"></div>
+        <span className="sptls-ribbon-text">{props.text}</span>
+        <div className="sptls-ribbon-corner"></div>
       </div>
     </div>
   );

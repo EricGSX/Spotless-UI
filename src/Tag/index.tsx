@@ -11,7 +11,7 @@ interface TagProps {
 
 // 定义按钮组件
 const Tag: FC<TagProps> = (props) => {
-  let tagStyle = 'intel-tag';
+  let tagStyle = 'sptls-tag';
   let colorStyle = '';
   const sysColor: string[] = [
     'magenta',
@@ -35,7 +35,7 @@ const Tag: FC<TagProps> = (props) => {
 
   if (found) {
     divStyle = {};
-    colorStyle = `intel-tag-${props.color}`;
+    colorStyle = `sptls-tag-${props.color}`;
   } else {
     divStyle = {
       backgroundColor: props.color,

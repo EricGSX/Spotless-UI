@@ -3,7 +3,7 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   outputPath: 'docs-dist',
   themeConfig: {
-    name: 'Spotless',
+    name: 'SPTLS',
     socialLinks: {
       github: 'https://github.com/EricGSX/spotless-ui',
     },

@@ -16,22 +16,22 @@ const Button: FC<ButtonProps> = (props) => {
   // 根据不同的类型设置不同的样式
   switch (props.type) {
     case 'primary':
-      buttonStyle = 'intel-btn-blue intel-btn';
+      buttonStyle = 'sptls-btn-blue sptls-btn';
       break;
     case 'info':
-      buttonStyle = 'intel-btn-gray intel-btn';
+      buttonStyle = 'sptls-btn-gray sptls-btn';
       break;
     case 'success':
-      buttonStyle = 'intel-btn-green intel-btn';
+      buttonStyle = 'sptls-btn-green sptls-btn';
       break;
     case 'warning':
-      buttonStyle = 'intel-btn-warning intel-btn';
+      buttonStyle = 'sptls-btn-warning sptls-btn';
       break;
     case 'danger':
-      buttonStyle = 'intel-btn-red intel-btn';
+      buttonStyle = 'sptls-btn-red sptls-btn';
       break;
     default:
-      buttonStyle = 'intel-btn-gray intel-btn';
+      buttonStyle = 'sptls-btn-gray sptls-btn';
   }
 
   return (

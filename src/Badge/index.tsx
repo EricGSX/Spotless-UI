@@ -15,7 +15,7 @@ interface BadgeProps {
 }
 
 const Badge: FC<BadgeProps> = (props) => {
-  const subStyle = 'intel-badge-sup';
+  const subStyle = 'sptls-badge-sup';
 
   let overflowCountLimit = 99;
 
@@ -30,7 +30,7 @@ const Badge: FC<BadgeProps> = (props) => {
   }
 
   return (
-    <span className="intel-badge">
+    <span className="sptls-badge">
       {/* DOM */}
       {props.children}
       {/* 徽标 */}

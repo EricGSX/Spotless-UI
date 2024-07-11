@@ -7,9 +7,9 @@ group:
   order: -1
 ---
 
-# 什么是 Spotless.
+# 什么是 SPTLS.
 
-Spotless. 全称 Spotless UI 基于 React、 TS 、Less 打造的无需依赖第三方 UI 库，支持按需导入。
+SPTLS. 全称 Spotless UI 基于 React、 TS 、Less 打造的无需依赖第三方 UI 库，支持按需导入。
 
 ## 特性
 

@@ -41,11 +41,11 @@ const Watermark: FC<WatermarkProps> = (props) => {
   };
 
   return (
-    <div className="intel-watermark">
+    <div className="sptls-watermark">
       {/* DOM */}
       {props.children}
       {/* 水印 */}
-      <div className="intel-watermark-content" style={waterStyle}></div>
+      <div className="sptls-watermark-content" style={waterStyle}></div>
     </div>
   );
 };
