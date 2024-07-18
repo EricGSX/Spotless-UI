@@ -64,6 +64,10 @@ group:
      <a href="./components/breadcrumb"><div class="box-item-title">Breadcrumb 面包屑</div>
     <img src="./images/breadcrumb.png" /></a>
   </div>
+  <div class="box-item">
+     <a href="./components/step"><div class="box-item-title">Steps 步骤条</div>
+    <img src="./images/step.png" /></a>
+  </div>
 </div>
 
 ### 数据录入

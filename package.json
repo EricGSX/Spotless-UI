@@ -1,6 +1,6 @@
 {
   "name": "spotless-ui",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "private": false,
   "description": "【Spotless UI】No need to rely on third-party UI libraries based on React TS, support on-demand import.",
   "keywords": [
@@ -23,6 +23,8 @@
     "Card",
     "Spin",
     "Watermark",
+    "Icon",
+    "Step",
     "Eric"
   ],
   "homepage": "https://ericgsx.github.io/",

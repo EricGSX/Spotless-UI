@@ -1,0 +1,142 @@
+.sptls-step {
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 88%);
+  display: flex;
+  gap: 8px;
+
+  // 默认状态
+  .sptls-step-item {
+    position: relative;
+    display: inline-block;
+    flex: 1;
+    overflow: hidden;
+    vertical-align: top;
+    box-sizing: border-box;
+    white-space: nowrap;
+
+    .sptls-step-item-container {
+      outline: none;
+      display: flex;
+
+      .sptls-step-item-icon {
+        width: 32px;
+        height: 32px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 8px;
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+        border-radius: 32px;
+        border: 1 sold transparent;
+        background-color: rgba(0, 0, 0, 6%);
+        border-color: transparent;
+
+        .sptls-step-icon {
+          position: relative;
+          top: -0.5px;
+          line-height: 1;
+          color: rgba(0, 0, 0, 65%);
+        }
+      }
+
+      .sptls-step-item-content {
+        display: inline-block;
+        vertical-align: top;
+        box-sizing: border-box;
+
+        .sptls-step-item-title {
+          position: relative;
+          display: inline-block;
+          padding-inline-end: 16px;
+          color: rgba(0, 0, 0, 88%);
+          font-size: 16px;
+          line-height: 32px;
+          box-sizing: border-box;
+
+          &:not(.sptls-step-item-title-hide-after) {
+            &::after {
+              position: absolute;
+              top: 16px;
+              inset-inline-start: 100%;
+              display: block;
+              width: 9999px;
+              height: 1px;
+              background: rgba(5, 5, 5, 6%);
+              content: '';
+            }
+          }
+        }
+
+        .sptls-step-item-description {
+          color: rgba(0, 0, 0, 88%);
+          max-width: 140px;
+          white-space: normal;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+
+  // 纵向步骤线
+  .sptls-step-item-tail {
+    &:not(.sptls-step-item-tail-end) {
+      &::after {
+        position: absolute;
+        display: block;
+        width: 1px;
+        height: 100%;
+        background: rgba(5, 5, 5, 6%);
+        inset-block-start: 34px;
+        content: '';
+        left: 16px;
+      }
+    }
+  }
+
+  // 完成状态
+  .sptls-step-item-finished {
+    .sptls-step-item-container {
+      .sptls-step-item-icon {
+        background-color: #1677ff;
+
+        .sptls-step-icon {
+          color: #fff;
+        }
+      }
+
+      .sptls-step-item-content {
+        .sptls-step-item-title {
+          &:not(.sptls-step-item-title-hide-after) {
+            &::after {
+              background: #1677ff;
+            }
+          }
+        }
+      }
+
+      .sptls-step-item-tail {
+        &::after {
+          background: #1677ff;
+        }
+      }
+    }
+  }
+
+  // 当前状态
+  .sptls-step-item-current {
+    .sptls-step-item-container {
+      .sptls-step-item-icon {
+        background-color: #1677ff;
+
+        .sptls-step-icon {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

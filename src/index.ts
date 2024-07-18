@@ -5,5 +5,6 @@ export { default as Card } from './Card';
 export { default as Icon } from './Icon';
 export { default as Ribbon } from './Ribbon';
 export { default as Spin } from './Spin';
+export { default as Step } from './Step';
 export { default as Tag } from './Tag';
 export { default as Watermark } from './Watermark';
