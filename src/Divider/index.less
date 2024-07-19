@@ -1,0 +1,51 @@
+.sptls-divider {
+  font-size: 14px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  .sptls-divider-inner-text {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  &::before {
+    position: relative;
+    content: '';
+    background-color: #e4e9ec;
+    width: 50%;
+    height: 1px;
+  }
+
+  &::after {
+    position: relative;
+    content: '';
+    background-color: #e4e9ec;
+    width: 50%;
+    height: 1px;
+  }
+}
+
+// 左侧
+.sptls-divider-left {
+  &::before {
+    width: calc(0.05 * 100%);
+  }
+
+  &::after {
+    width: calc(0.95 * 100%);
+  }
+}
+// 右侧
+.sptls-divider-right {
+  &::before {
+    width: calc(0.95 * 100%);
+  }
+
+  &::after {
+    width: calc(0.05 * 100%);
+  }
+}

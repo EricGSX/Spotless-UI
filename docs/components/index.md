@@ -57,6 +57,13 @@ group:
 
 ### 布局
 
+<div class="div-box">
+  <div class="box-item">
+    <a href="./components/divider"><div class="box-item-title">Divider 分割线</div>
+    <img src="./images/divider.png" /></a>
+  </div>
+</div>
+
 ### 导航
 
 <div class="div-box">
