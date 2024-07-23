@@ -5,6 +5,7 @@ export { default as Card } from './Card';
 export { default as Divider } from './Divider';
 export { default as Icon } from './Icon';
 export { default as Ribbon } from './Ribbon';
+export { default as Space } from './Space';
 export { default as Spin } from './Spin';
 export { default as Step } from './Step';
 export { default as Tag } from './Tag';

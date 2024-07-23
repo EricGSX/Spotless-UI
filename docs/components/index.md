@@ -62,6 +62,10 @@ group:
     <a href="./components/divider"><div class="box-item-title">Divider 分割线</div>
     <img src="./images/divider.png" /></a>
   </div>
+  <div class="box-item">
+    <a href="./components/space"><div class="box-item-title">Space 间距</div>
+    <img src="./images/space.png" /></a>
+  </div>
 </div>
 
 ### 导航
