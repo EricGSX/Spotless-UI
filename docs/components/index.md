@@ -102,6 +102,10 @@ group:
     <a href="./components/tag"><div class="box-item-title">Tag 标签</div>
     <img src="./images/tag.png" /></a>
   </div>
+  <div class="box-item">
+    <a href="./components/collapse"><div class="box-item-title">Collapse 折叠面板</div>
+    <img src="./images/collapse.png" /></a>
+  </div>
 </div>
 
 ### 反馈
