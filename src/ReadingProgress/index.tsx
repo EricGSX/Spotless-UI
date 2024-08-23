@@ -14,7 +14,9 @@ const ReadingProgress: FC<ReadingProgressProps> = (props) => {
     let totalPageHeight = document.body.clientHeight;
     let progressWidth =
       ((pageScrollHeight + pageHeight) / totalPageHeight) * 100;
-    let element = document.querySelector('.sptls-reading-progress-container');
+    let element = document.querySelector(
+      '.sptls-reading-progress-container',
+    ) as HTMLElement | null;
     if (element) {
       element.style.width = `${progressWidth}%`;
     }
