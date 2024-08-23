@@ -5,6 +5,7 @@ export { default as Card } from './Card';
 export { default as Collapse } from './Collapse';
 export { default as Divider } from './Divider';
 export { default as Icon } from './Icon';
+export { default as ReadingProgress } from './ReadingProgress';
 export { default as Ribbon } from './Ribbon';
 export { default as Space } from './Space';
 export { default as Spin } from './Spin';

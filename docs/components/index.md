@@ -119,4 +119,8 @@ group:
     <a href="./components/watermark"><div class="box-item-title">Watermark 水印</div>
     <img src="./images/watermark.png" /></a>
   </div>
+  <div class="box-item">
+    <a href="./components/readingprogress"><div class="box-item-title">Page Progress 阅读进度</div>
+    <img src="./images/readingprogress.png" /></a>
+  </div>
 </div>
